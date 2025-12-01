@@ -43,29 +43,7 @@ PaddlePace is a static web experience that helps university students estimate re
 cycling-app/README.md
 +27
 -11
-
-# Responsive Christmas Website
-## [Watch it on youtube](https://youtu.be/PCOnO6FG4YU)
-### Responsive Christmas Website
-# PaddlePace (cycling-app)
-
-- Responsive Christmas Website Design Using HTML CSS & JavaScript
-- Contains countdown to Christmas in days, hours, minutes & seconds.
-- It also contains a message on Christmas Day.
-- Along with the snow animation.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
-This folder contains the static assets for PaddlePace, a cycling-time estimation web app built for students. The site runs directly in the browser—no build tools or server-side code required.
-
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
-## Pages
-- **Home (`index.html`)** – Landing page with animated cycling illustration and a call-to-action that links to the planner.
-- **Route planner (`map.html`)** – Uses the Google Maps JavaScript API to center on the user’s geolocation, lets users drop a destination marker, and draws a walking route as a proxy for biking. It calculates distance and duration, derives a cycling estimate that factors in elevation (`getElevation` in `map.js`), and shows weather at both endpoints via OpenWeather.
-- **About Us (`aboutUs.html`)** – Team roster and project mission.
-
-![preview img](/preview.png)
-## Key client logic (`map.js`)
-- Initializes Google Maps/Directions/Elevation/DistanceMatrix services (`initMap`, `displayMap`).
+alizes Google Maps/Directions/Elevation/DistanceMatrix services (`initMap`, `displayMap`).
 - Handles origin (current location) and destination marker placement, then requests directions on **Calculate**.
 - Converts Google route distance/time strings into numbers to estimate cycling time against elevation gain (`convertTimeStringToMinutes`, `convertDistanceStringToMeters`, `getElevation`).
 - Fetches start/end weather with OpenWeather and formats precipitation, temperature, and cloud cover (`getWeather`).
