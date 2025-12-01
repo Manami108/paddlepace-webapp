@@ -1,5 +1,7 @@
 # PaddlePace Web App
 
+https://github.com/user-attachments/assets/7f703f37-f111-4afc-9504-47c68d93bb79
+
 PaddlePace is a static web experience that helps university students estimate real-world cycling time between two points while showing elevation and weather context. The project is built entirely with HTML, CSS, and JavaScript and is designed to run from the `cycling-app/` directory without a build step.
 
 ## Features
