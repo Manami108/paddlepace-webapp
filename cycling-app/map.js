@@ -182,7 +182,7 @@ function getWeather (address, s_or_e){
   console.log(city_name);
 
   const query_params = new URLSearchParams({ 
-    appid: "07ec85db75e8dd4c75af3eddfc2f34aa", // Set your API key of OpenWeather API
+    // Set your API key of OpenWeather API
     // q: "Chiyoda",
     q: city_name,
     lang:"en", 
