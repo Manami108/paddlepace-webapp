@@ -37,20 +37,6 @@ PaddlePace is a static web experience that helps university students estimate re
 - Update hero text, button labels, or team details directly in the respective HTML files.
 - The map display, weather layout, and iframe animations (sun/rain) can be repositioned by adjusting the DOM manipulations in `map.js`.
 
-## Updating this README
-- Keep route-planner explanations in sync with the implementations in `cycling-app/map.html` and `cycling-app/map.js` when behavior changes (e.g., new overlays, input steps, or API adjustments).
-- When API requirements change, update the **Prerequisites** section first so developers see new keys or parameters immediately.
-- If you add new pages or assets under `cycling-app/`, reflect them in **Project structure** and **Features** to keep navigation cues accurate.
-- After editing, skim the live app locally (see **Running locally**) to confirm terminology matches the UI labels, buttons, and flows.
-cycling-app/README.md
-+27
--11
-alizes Google Maps/Directions/Elevation/DistanceMatrix services (`initMap`, `displayMap`).
-- Handles origin (current location) and destination marker placement, then requests directions on **Calculate**.
-- Converts Google route distance/time strings into numbers to estimate cycling time against elevation gain (`convertTimeStringToMinutes`, `convertDistanceStringToMeters`, `getElevation`).
-- Fetches start/end weather with OpenWeather and formats precipitation, temperature, and cloud cover (`getWeather`).
-- Moves the map and weather/elevation overlays into view after calculation, and wires mobile navigation toggles.
-
 ## Setup
 1. Replace the Google Maps API key in the `<script>` tag near the end of `map.html` (`key=...`).
 2. Set your OpenWeather API key in the `appid` value inside `getWeather` in `map.js`.
